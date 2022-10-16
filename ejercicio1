@@ -39,7 +39,9 @@ class Rectangulo:
         self.primerpunto = primerpunto
         self.segundopunto = segundopunto
 
-    def     
+    def Base(self):
+        self.base = abs(self.segundopunto.x - self.primerpunto.x)
+        return base    
 
 
 
