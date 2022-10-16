@@ -46,8 +46,14 @@ class Rectangulo:
     def Altura(self):
         self.altura = abs(self.segundopunto.y - self.primerpunto.y)
         return self.altura
+
+    def Area(self):
+        area = self.base * self.altura
+        return area
     
-               
+            
+
+
 
 
 
