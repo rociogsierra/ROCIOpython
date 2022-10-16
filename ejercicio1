@@ -65,10 +65,29 @@ cuadrante(A)
 cuadrante(B)
 #el punto C pertenece al tercer cuadrante
 cuadrante(C)
+
 #el vector AB es el (3,2)
 vector(A,B)
 #el vector BA es el (-3,-2)
 vector(B,A)
+
+#OPCIONAL
+#la distancia entre A y B es de 10 unidades
+distancia(A,B)
+#la distancia entre B y A es de -10 unidades, aunque al ser una distancia, diremos que la la distancia es de 10 es decir, en valor absoluto ya que las distancias nunca van a ser negativas
+distancia(B,A)
+
+#OPCIONAL
+#el punto (0,0) es el punto D, por lo que hallaremos la distancia entre D y A, D y B, y D y C, para determinar cual es el más lejano
+distancia(D,A)
+#la distancia entre D y A es de 10 unidades
+distancia(D,B)
+#la distancia entre D y B es de 20 unidades
+distancia(D,C)
+#la distancia entre D y C es de 8 unidades
+#el punto que está más alejado del origen es el B
+
+
 
 
 
