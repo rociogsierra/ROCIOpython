@@ -90,6 +90,10 @@ distancia_DC = distancia(D,C)
 #creamos un rectángulo usando los puntos A y B
 figura_rectangulo = Rectangulo(A,B)
 
+#consultar la base, altura y area del rectángulo
+figura_rectangulo.Base()
+figura_rectangulo.Altura()
+figura_rectangulo.Area()
 
 
 
