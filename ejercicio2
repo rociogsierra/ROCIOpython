@@ -6,4 +6,7 @@ def modificar_texto_original(texto):
         if lugar == 0:
             oracion[lugar] = oracion[lugar].capitalize() + "..."
         else:
-            
+            oracion[lugar] = "-" + oracion[lugar].capitalize() + "."
+    texto = "\n".join(oracion)
+    return texto        
+
