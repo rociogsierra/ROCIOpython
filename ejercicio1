@@ -20,5 +20,14 @@ class Punto:
             posicion = "({}, {}) es un punto perteneciente al cuarto cuadrante".format(self.x, self.y)
         else:
             posicion = "el punto dado ({},{}), está en el origen y es el (0,0)".format(self.x, self.y)
-                      
+        return posicion
+    
+    def vector(self, punto):
+        x = punto.x - self.x
+        y = punto.y - self.y
+        return x , y  
+              
+
+
+
 
