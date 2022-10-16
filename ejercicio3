@@ -1,6 +1,14 @@
 def modificar(lista):
+    
     print("en esta lista hemos borrado los elementos duplicados:")
     duplicados_borrados = list(dict.fromkeys(lista))
     print(duplicados_borrados)
 
+    print("esta lista está ordenada de mayor a menor:")
+    orden_de_mayor_a_menor = sorted(duplicados_borrados, reverse=True)
+    print(orden_de_mayor_a_menor)
+
     
+
+
+
