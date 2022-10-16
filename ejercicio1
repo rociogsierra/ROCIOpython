@@ -50,10 +50,25 @@ class Rectangulo:
     def Area(self):
         area = self.base * self.altura
         return area
-    
-            
 
+#EXPERIMENTACIÓN
+#creamos los puntos propuestos en el enunciado 
 
+A = Punto(2,3)
+B = Punto(5,5)
+C = Punto(-3,-1)
+D = Punto(0,0)
+
+#el punto A pertenece al primer cuadrante 
+cuadrante(A)
+#el punto B pertenece al primer cuadrante
+cuadrante(B)
+#el punto C pertenece al tercer cuadrante
+cuadrante(C)
+#el vector AB es el (3,2)
+vector(A,B)
+#el vector BA es el (-3,-2)
+vector(B,A)
 
 
 
