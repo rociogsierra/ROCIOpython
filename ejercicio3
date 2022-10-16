@@ -1,0 +1,6 @@
+def modificar(lista):
+    print("en esta lista hemos borrado los elementos duplicados:")
+    duplicados_borrados = list(dict.fromkeys(lista))
+    print(duplicados_borrados)
+
+    
