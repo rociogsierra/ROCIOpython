@@ -60,33 +60,35 @@ C = Punto(-3,-1)
 D = Punto(0,0)
 
 #el punto A pertenece al primer cuadrante 
-cuadrante(A)
+cuadrante_A = cuadrante(A)
 #el punto B pertenece al primer cuadrante
-cuadrante(B)
+cuadrante_B = cuadrante(B)
 #el punto C pertenece al tercer cuadrante
-cuadrante(C)
+cuadrante_C = cuadrante(C)
 
 #el vector AB es el (3,2)
-vector(A,B)
+vector_AB = vector(A,B)
 #el vector BA es el (-3,-2)
-vector(B,A)
+vector_BA = vector(B,A)
 
 #OPCIONAL
 #la distancia entre A y B es de 10 unidades
-distancia(A,B)
+distancia_AB = distancia(A,B)
 #la distancia entre B y A es de -10 unidades, aunque al ser una distancia, diremos que la la distancia es de 10 es decir, en valor absoluto ya que las distancias nunca van a ser negativas
-distancia(B,A)
+distancia_BA = distancia(B,A)
 
 #OPCIONAL
 #el punto (0,0) es el punto D, por lo que hallaremos la distancia entre D y A, D y B, y D y C, para determinar cual es el más lejano
-distancia(D,A)
+distancia_DA = distancia(D,A)
 #la distancia entre D y A es de 10 unidades
-distancia(D,B)
+distancia_DB = distancia(D,B)
 #la distancia entre D y B es de 20 unidades
-distancia(D,C)
+distancia_DC = distancia(D,C)
 #la distancia entre D y C es de 8 unidades
 #el punto que está más alejado del origen es el B
 
+#creamos un rectángulo usando los puntos A y B
+figura_rectangulo = Rectangulo(A,B)
 
 
 
