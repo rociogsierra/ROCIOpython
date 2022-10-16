@@ -41,7 +41,13 @@ class Rectangulo:
 
     def Base(self):
         self.base = abs(self.segundopunto.x - self.primerpunto.x)
-        return base    
+        return self.base
+
+    def Altura(self):
+        self.altura = abs(self.segundopunto.y - self.primerpunto.y)
+        return self.altura
+    
+               
 
 
 
