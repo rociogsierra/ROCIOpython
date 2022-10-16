@@ -10,7 +10,12 @@ class Punto:
         return "({}, {})".format(self.x, self.y)
 
     def cuadrante(self):
-        if self.x >= 0 and self.y >=0:
+        if self.x >= 0 and self.y >= 0:
             posicion = "({}, {}) es un punto perteneciente al primer cuadrante".format(self.x, self.y)
-            
+        elif self.x <= 0 and self.y >= 0:
+            posicion = "({}, {}) es un punto perteneciente al segundo cuadrante".format(self.x, self.y)
+        elif self.x <= 0 and y <= 0:
+            posicion = "({}, {}) es un punto perteneciente al tercer cuadrante".format(self.x, self.y)
+        elif self.x >= 0 and self.y <= 0:
+            posicion = "({}, {}) es un punto perteneciente al cuarto cuadrante".format(self.x, self.y)       
 
